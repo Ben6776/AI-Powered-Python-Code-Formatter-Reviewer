@@ -1,2 +1,31 @@
-# Ben
-AI-powered Python Code Review Bot
+# 🧠 AI-Powered Python Code Formatter & Reviewer
+
+A web app that uses **Google Gemini AI** to review and reformat Python code based on your custom prompt. Upload a `.py` file, get intelligent suggestions, and receive a cleaner version of your code—all in one interface.
+
+---
+
+## 🚀 Features
+- Upload Python files (`.py`)
+- Input your own custom prompt
+- Get AI-generated suggestions
+- View reformatted code
+- Download the improved version
+- Built using FastAPI, Streamlit, and Gemini 1.5
+
+---
+
+## 🛠️ Tech Stack
+- Python 3.10+
+- FastAPI (Backend API)
+- Streamlit (Frontend UI)
+- Google Generative AI (Gemini 1.5 Flash)
+- python-dotenv
+
+---
+
+## 🔧 Setup & Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/ai-python-code-reviewer.git
+cd ai-python-code-reviewer
