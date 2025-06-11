@@ -23,9 +23,3 @@ A web app that uses **Google Gemini AI** to review and reformat Python code base
 
 ---
 
-## 🔧 Setup & Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/ai-python-code-reviewer.git
-cd ai-python-code-reviewer
