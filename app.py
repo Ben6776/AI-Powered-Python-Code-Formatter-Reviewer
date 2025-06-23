@@ -10,13 +10,12 @@ st.markdown("Upload a `.py` file and get custom AI feedback using your own promp
 
 uploaded_file = st.file_uploader("Choose a Python file", type=["py"])
 
-# 🔸 Add prompt input box
-user_prompt = ("Suggest improvements and rewrite in a more efficient way.")
+user_prompt = ("Please analyze the uploaded Python file and return a version of the code that follows standard Python coding practices (PEP 8), improves readability, and fixes any common style or formatting issues. Do not change the logic of the code.")
 
 if uploaded_file is not None and user_prompt:
     file_code = uploaded_file.read().decode("utf-8")
 
-    if st.button("🤖Ask AI"):
+    if st.button("🤖Format Code"):
         with st.spinner("Thinking..."):
             try:
                 response = requests.post(
