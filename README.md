@@ -1,12 +1,11 @@
 # 🧠 AI-Powered Python Code Formatter & Reviewer
 
-A web app that uses **Google Gemini AI** to review and reformat Python code based on your custom prompt. Upload a `.py` file, get intelligent suggestions, and receive a cleaner version of your code—all in one interface.
+A web app that uses **Google Gemini AI** to review and reformat Python code. Upload a `.py` file, get intelligent suggestions, and receive a cleaner version of your code—all in one interface.
 
 ---
 
 ## 🚀 Features
 - Upload Python files (`.py`)
-- Input your own custom prompt
 - Get AI-generated suggestions
 - View reformatted code
 - Download the improved version
